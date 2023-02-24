@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div id="flex-container">
+      <div class="card" id="result">
+        <h2>Your Result</h2>
+        <div id="score">
+          <h3>76</h3>
+          <p>of 100</p>
+        </div>
+
+        <h3>Great</h3>
+        <p>You scored higher than 65% of people who have taken these tests.</p>
+      </div>
+      <div class="card" id="summary">
+        <h2>Summary</h2>
+        <div id="score-holder">
+          <div class="score-card">
+            <img src="assets/images/icon-reaction.svg" />
+            <h3>Reaction</h3>
+            <p><span class="my-scores">80</span>/100</p>
+          </div>
+          <div class="score-card">
+            <img src="assets/images/icon-memory.svg" />
+            <h3>Memory</h3>
+            <p><span class="my-scores">92</span>/100</p>
+          </div>
+          <div class="score-card">
+            <img src="assets/images/icon-verbal.svg" />
+            <h3>Verbal</h3>
+            <p><span class="my-scores">61</span>/100</p>
+          </div>
+          <div class="score-card">
+            <img src="assets/images/icon-visual.svg" />
+            <h3>Visual</h3>
+            <p><span class="my-scores">72</span>/100</p>
+          </div>
+          <div class="button"><h3>Continue</h3></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
